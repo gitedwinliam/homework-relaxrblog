@@ -10,6 +10,10 @@ Developer @GA in NYC
 /* SETUP
 /*******************************************/
 
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
 /* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
@@ -59,16 +63,205 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 100%;
   margin: auto;
+  background-color: #f0efef;
+  font-family: 'Open Sans', sans-serif;
 }
+
+/*******************************************/
+/*Header*/
+/*******************************************/
 
 header {
-
+  background-color: #033048;
+  width: 100%;
 }
 
-footer {
+.logo{
+  color: white;
+  float: left;
+  padding: 30px;
+}
 
+nav{
+  float: right;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navLink{
+  color: yellow;
+  display: block;
+  padding: 30px 2px;
+  text-decoration: none;
+}
+
+.navLink:hover{
+  color: blue;
+}
+
+.nLink{
+  float: right;
+  padding-right: 50px;
+}
+
+.cLink{
+   list-style-type: none;
+}
+
+/*******************************************/
+/*Content*/
+/*******************************************/
+
+.content{
+  float: left;
+  width: calc(75% - 10px);
+  padding: 25px;
+}
+
+.hContent{
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+article{
+  border-bottom: 2px solid #033048;
+  padding-left: 50px;
+  padding-bottom: 55px;
+  width: 700px;
+}
+
+.sectionImg{
+  width: 700px;
+}
+
+.articleP{
+  color: #606161;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.articleP:first-letter{
+  font-size: 300%;
+  float: left;
+  padding-right: 10px;
+} 
+
+.readMore{
+  text-decoration: none;
+  color: #033048;
+  float: right;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.readMore:hover{
+  color: royalblue;
+}
+
+aside{
+  float: right;
+  width: 240px;
+}
+
+.hSide{
+  color: #033048;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.categories{
+  text-decoration: none;
+}
+
+.cList{
+  padding: 0;
+}
+
+.catLink{
+  clear: both;
+  list-style: none;
+}
+
+.cLink{
+  text-decoration: none;
+  color: #033048;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.cLink:hover{
+  color: white;
+}
+
+.aboutMe{
+  clear: both;
+  color: #033048;
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+
+.aboutContent{
+  margin: none;
+}
+
+.sReadMore{
+  text-decoration: none;
+  color: #033048;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sReadMore:hover{
+  color: royalblue;
+}
+
+/*******************************************/
+/*SignUpNow*/
+/*******************************************/
+
+.signUpNow{
+  clear: both;
+  text-align: center;
+  background: #f9e42e;
+  padding: 50px;
+}
+
+.signButton{
+  text-align: center;
+  padding: 10px 35px;
+  background-color: midnightblue;
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.signButton:hover{
+  box-shadow: none;
+}
+
+/*******************************************/
+/*Footer*/
+/*******************************************/
+
+footer {
+  text-align: center;
+  padding: 50px;
+  clear: both;
+  background: #121212;
+}
+
+.footCopy{
+  color: white;
+}
+
+
+.footHead{
+  color: yellow;
 }
 
 /******************************************
